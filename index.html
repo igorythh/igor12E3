@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>poluição automóvel</title>
+    <style>
+      #gameCanvas {
+        box-shadow: 10px 10px 20px black;
+      }
+      h1 {
+        text-align: center;
+        font-family: comic sans MS;
+        color: lightgrey;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        height: 100vh;
+        background: linear-gradient(
+          0deg,
+          rgb(254, 251, 251) 0%,
+          rgb(0, 0, 0) 100%
+        );
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Diminuição da poluição automóvel</h1>
+      <canvas id="gameCanvas"></canvas>
+      <id="score">
+      <h2>Pontuação: <span id="score-value">0</span></h2> <a href='https://igorythh.github.io/igor12E2/'><button>Voltar</button></a>
+    </div>
+    <script src="src/Game3.js" type="module"></script>
+  </body>
+</html>
